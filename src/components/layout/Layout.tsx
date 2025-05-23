@@ -141,6 +141,17 @@ const Layout = () => {
           </div>
           <div className="border-t border-gray-700 mt-8 pt-6 text-center">
             <p>&copy; {new Date().getFullYear()} Vijaya Builders. All rights reserved.</p>
+            <p>
+    Developed with <span className="text-red-500">❤</span> by{" "}
+    <a
+      href="https://zenanvibe.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-vijaya-yellow hover:underline"
+    >
+      Zenanvibe
+    </a>
+  </p>
           </div>
         </div>
       </footer>
